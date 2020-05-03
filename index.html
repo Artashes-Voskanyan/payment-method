@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <script src="script.js"></script>
+
+    <header>
+      <h4>Please choose the payment method</h4>
+    </header>
+
+
+<button><h5 class="flip" onclick="FlipCash()">CASH</h5></button>
+<div id="container1">
+  Thank you.
+</div>
+
+<button><h5 class="flip" onclick="FlipCard()">CREDIT CARD</h5></button>
+
+<form   name="a333"  >
+    <div class="container">
+<div id="container">
+  
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname1" name="firstname1" required pattern="[A-Za-z]{1,}"  placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname1" name="lastname1" required pattern="[A-Za-z]{1,}" placeholder="Your last name..">
+
+     <label for="cardnum">Card Number</label>
+    <input type="tel" id="cardnum" name="cardnumber" required maxlength="16" minlength="16" pattern="[0-9]{16}" placeholder="Your card's number..">
+
+     <label for="CVV">CVV</label>
+    <input type="password" id="CVV" name="CVVcode" required maxlength="3" minlength="3" pattern="[0-9]{3}" placeholder="CVV code..">
+    
+
+    <input type="submit" id="button1" onclick="buttonFunc()" value="Pay">
+    <p id="but1"></p>
+
+  </form>
+</div>
+  </body>
+</html>
