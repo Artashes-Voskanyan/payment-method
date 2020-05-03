@@ -1,0 +1,86 @@
+header {
+  background-color: rgba(6, 59, 10, 0.781);
+  padding: 1px;
+  text-align: center;
+  font-size: 22px;
+  color: white;
+}
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+  box-sizing: border-box;
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+}
+
+input[type=password], select, textarea {
+  width: 100%; 
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+  box-sizing: border-box;
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+}
+
+input[type=tel], select, textarea {
+  width: 100%; 
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+  box-sizing: border-box;
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+}
+
+input[type=submit] {
+  background-color: rgba(6, 59, 10, 0.781);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #4CAF50;
+  padding: 20px;
+}
+
+#container, .flip {
+  font-size: 25px;
+  padding: 10px;
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+  border: solid 1px #a6d8a8;
+  margin: auto;
+}
+
+#container {
+  display: none;
+}
+
+.container1 {
+  border-radius: 5px;
+  background-color: #4CAF50;
+  padding: 20px;
+}
+
+#container1, .flip {
+  font-size: 25px;
+  padding: 10px;
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+  border: solid 1px #a6d8a8;
+  margin: auto;
+}
+
+#container1 {
+  display: none;
+}
